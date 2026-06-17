@@ -1,2 +1,3 @@
 # Diagrams
-Network diagrams for the Exhibition Infrastructure Project.
+
+This folder contains physical, logical, and identity architecture diagrams for the project.
