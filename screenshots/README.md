@@ -1,2 +1,3 @@
 # Screenshots
-Screenshots of Active Directory, Entra ID, Intune, and PowerShell configurations.
+
+This folder contains screenshots of Active Directory, Microsoft Entra ID, Intune, and PowerShell configurations.
