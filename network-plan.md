@@ -4,6 +4,10 @@
 
 NMAC & Auralabs Exhibition Network Design
 
+## Project Goal
+
+Design a segmented exhibition network for NMAC and Auralabs that separates staff, ticketing, media, CCTV, guest Wi-Fi, merchandise/POS, and admin access using VLANs, DHCP scopes, and access control rules.
+
 ## 1. Network Topology Overview
 
 The network is designed to support two exhibition environments: NMAC and Auralabs. It separates ticketing, staff, CCTV, media devices, merchandise/POS, guest Wi-Fi, and admin access using VLANs.
@@ -19,17 +23,15 @@ Core Switch
 | Ticketing | Staff | CCTV | Media | Merch | Guest | Admin |
 ```
 
-## 2. VLAN Plan
-
-| VLAN ID | VLAN Name  | Purpose                                          |
-| ------- | ---------- | ------------------------------------------------ |
-| 10      | Ticketing  | NMAC ticketing PCs and Auralabs ticketing laptop |
-| 20      | Staff      | Staff laptops                                    |
-| 30      | CCTV       | Security cameras                                 |
-| 40      | Media      | Screens and projectors                           |
-| 50      | Merch_POS  | NMAC merchandise/POS PC                          |
-| 60      | Guest_WiFi | Visitor wireless access                          |
-| 70      | Admin      | Admin laptop and network management              |
+| VLAN ID | VLAN Name | Purpose |
+|---|---|---|
+| 10 | Ticketing | NMAC ticketing PCs and Auralabs ticketing laptop |
+| 20 | Staff | Staff laptops |
+| 30 | CCTV | Security cameras |
+| 40 | Media | Screens and projectors |
+| 50 | Merch_POS | Merchandise/POS PC |
+| 60 | Guest_WiFi | Visitor wireless access |
+| 70 | Admin | Admin laptop and network management |
 
 ## 3. IP Addressing Plan
 
